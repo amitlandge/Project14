@@ -18,8 +18,8 @@ body {
   justify-content: space-between;
   align-items: center;
 }
-.logo > img {
-  width: 70%;
+.logo  {
+  width: 30%;
 }
 .navlist {
   display: flex;
@@ -180,4 +180,20 @@ br {
 }
 .arrow > i {
   font-size: 15vmin;
+}
+@media only screen and (max-width:1200px){
+  .hero-left{
+    display: none;
+  }
+  .hero-right{
+    width: 100%;
+  }
+}
+@media only screen and (max-width:1200px){
+  .navlist{
+    display: none;
+  }
+  .features::before{
+    display: none;
+  }
 }
